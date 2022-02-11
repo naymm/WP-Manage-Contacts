@@ -228,7 +228,7 @@ class WP_Contacts_Manager {
             $id = isset($request->editcontactID) ? $request->editcontactID : '';
 
             if (!empty($newName) && !empty($newLastname) && !empty($newEmail)) {
-                $wpdb->update($this->wpcm, array('name' => sanitize_text_field($newName), 'lastname' => sanitize_text_field($newLastname), 'phone' => sanitize_text_field($newPhone), 'company' => sanitize_text_field($newCompany), 'web' => sanitize_text_field($newWeb), 'email' => sanitize_text_field($newEmail), 'two_email' => sanitize_text_field($newTwo_Email), 'two_phone' => sanitize_text_field($newTwo_Phone), 'two_address' => sanitize_text_field($newTwo_Address), 'job' => sanitize_text_field($newJob), array('id' => $id));
+                $wpdb->update($this->wpcm, array('name' => sanitize_text_field($newName), 'lastname' => sanitize_text_field($newLastname), 'phone' => sanitize_text_field($newPhone), 'company' => sanitize_text_field($newCompany), 'web' => sanitize_text_field($newWeb), 'email' => sanitize_text_field($newEmail), 'two_email' => sanitize_text_field($newTwo_Email), 'two_phone' => sanitize_text_field($newTwo_Phone), 'two_address' => sanitize_text_field($newTwo_Address), 'job' => sanitize_text_field($newJob)), array('id' => $id));
 
                 $result['success'] = __('Contact has been successfully updated.', $this->text_domain);
                 $result['status'] = true;
