@@ -16,4 +16,22 @@
  *   @author     Naym Mupoia
  */
 
+if (!defined('ABSPATH'))
+exit;
+if (!defined('WP_CONTACTS_MANAGER_DIR')) :
+define('WP_CONTACTS_MANAGER_DIR', plugin_dir_path(__FILE__));
+endif;
+if (!defined('WP_CONTACTS_MANAGER_LIB')) :
+define('WP_CONTACTS_MANAGER_LIB', plugin_dir_path(__FILE__) . 'library/');
+endif;
+if (!defined('DIRSP')) :define('DIRSP', DIRECTORY_SEPARATOR);
+endif;
+if (!defined('WP_CONTACTS_MANAGER_URL')) :
+define('WP_CONTACTS_MANAGER_URL', plugin_dir_url(__FILE__));
+endif;
+if (!defined('WP_CONTACTS_MANAGER_ASSETS_PATH')) : define('WP_CONTACTS_MANAGER_ASSETS_PATH', plugin_dir_path(__FILE__) . 'includes/');
+endif;
+if (!defined('WP_CONTACTS_MANAGER_PLUGIN_BASE_NAME')) :define('WP_CONTACTS_MANAGER_PLUGIN_BASE_NAME', plugin_basename(__FILE__));
+endif;
+
 ?>
