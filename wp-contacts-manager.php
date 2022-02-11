@@ -261,4 +261,6 @@ class WP_Contacts_Manager {
 
 }
 
+$WP_Contacts_Manager = new WP_Contacts_Manager();
+
 ?>
