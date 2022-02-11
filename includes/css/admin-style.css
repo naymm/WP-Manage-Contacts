@@ -1,0 +1,776 @@
+.main-container-init .content-area {
+    margin-right: 20px;
+}
+
+.alert.warning {
+	background-color: #0073aa;
+	padding: 0px 6px;
+	opacity:0;
+    transition:visibility 0.3s linear,opacity 0.3s linear;
+    position: relative;
+    top: -9px;
+    width: 320px;
+    left: -55px;
+}
+div.col-init-2.left.alert.warning p {  
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+div.col-init-2.left.alert.warning p a {
+    color: red;
+	font-size: 14px;
+	text-align: center;
+}
+
+.invoice-creater-init span[contenteditable] {  }
+
+.status-check-list {
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: 500;
+}
+.xdsoft_timepicker.active {
+    display: none !important;
+}
+
+.main-container-init .ng-scope{
+    background: #fff;
+    padding: 14px 19px 0px 19px;
+}
+.main-container-init .form-control {
+    height: 36px;
+    margin-bottom: 7px;
+}
+.main-container-init .total-item {
+    position: relative;
+    top: 7px;
+}
+.main-container-init .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+div.form_wrapper.create-contact {
+    margin-top: -4%;
+    padding-top: 0;
+	overflow-y: scroll;
+    height: 95%;
+}
+div.form_wrapper.edit-contact {
+    margin-top: -4%;
+    padding-top: 0;
+    overflow-y: scroll;
+    height: 95%;	
+} 
+.header-1{
+    padding: 2px;
+    background: #444;
+}
+.header-1 h2{
+    color: #fff;
+    margin-left: 17px;
+    font-size: 23px;
+    text-align: center;
+}
+.input_field-readonly input{
+    padding: 6px 0px 10px 8px !important;
+}
+.input_field-readonly input:focus{
+    background-color: none;
+}
+.main-container-init .close{
+    display:block;
+    float:right;
+    width:30px;
+    height:29px;
+    top: 1px;
+    position: absolute;
+    right: 0px;
+    background:url(../images/close_icon.png) no-repeat center center;
+    cursor: pointer;
+}
+
+.main-container-init .form_wrapper {
+    background: #eaeaea;
+    width: 70%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    top: 17%;
+    left: 15%;
+    position: fixed;
+    z-index: 100;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0 23px 4px -21px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 0 23px 4px -21px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 23px 4px -21px rgba(0, 0, 0, 0.9);
+
+}
+
+.main-container-init .form_wrapper_popup {
+    background: #eaeaea;
+    width: 50%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    z-index: 100;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0 23px 4px -21px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 0 23px 4px -21px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 23px 4px -21px rgba(0, 0, 0, 0.9);
+
+}
+
+.main-container-init .form_wrapper_popup h2 {
+    font-size:1.5em;
+    line-height:1.5em;
+    margin:0;
+}
+.main-container-init .form_wrapper_popup .title_container {
+    text-align:center;
+    margin:-15px -15px 15px;
+    padding:15px 0;
+    border-bottom: 1px solid #ccc;
+}
+.main-container-init .form_wrapper_popup h3 {
+    font-size:1.1em;
+    font-weight:normal;
+    line-height:1.5em;
+    margin:0;
+}
+.main-container-init .form_wrapper_popup .row {
+    margin:10px -15px;
+}
+.main-container-init .form_wrapper_popup .row > div {
+    padding:0 15px;
+    box-sizing:border-box;
+}
+.main-container-init .form_wrapper_popup .col_md8 {
+    width:66%;
+    float:left;
+}
+.main-container-init .form_wrapper_popup .col_half {
+    width:50%;
+    float:left;
+}
+.main-container-init .form_wrapper_popup .col_thrid {
+    width:33%;
+    float:left;
+}
+.main-container-init .form_wrapper_popup .col_for {
+    width:25%;
+    float:left;
+}
+.main-container-init .form_wrapper_popup label {
+    display:block;
+    margin:0 0 5px;
+}
+.main-container-init .form_wrapper_popup .input_field,.main-container-init .form_wrapper_popup .textarea_field {
+    position:relative;
+}
+.main-container-init .form_wrapper_popup .input_field > span, .main-container-init .form_wrapper_popup .textarea_field > span {
+    position:absolute;
+    left:0;
+    top:0;
+    color:#333;
+    height:100%;
+    border-right:1px solid #ccc;
+    text-align:center;
+    width:20px;
+}
+.main-container-init .form_wrapper_popup .textarea_field > span {
+    border-bottom:1px solid #ccc;
+    max-height:25px;
+}
+.main-container-init .form_wrapper_popup .input_field > span > i,.main-container-init .form_wrapper_popup .textarea_field > span > i {
+    padding-top:12px;
+}
+.main-container-init .form_wrapper_popup input[type="text"],.main-container-init .form_wrapper_popup select,.main-container-init .form_wrapper_popup input[type="email"],.main-container-init .form_wrapper input[type="tel"],.main-container-init textarea {
+    width:100%;
+    padding:10px 10px 10px 35px;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+    outline:none;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+}
+.main-container-init .form_wrapper_popup select{
+    -webkit-appearance: textfield;
+    padding: 5px 10px 5px 35px;
+}
+.main-container-init .form_wrapper_popup textarea {
+    height:8em;
+}
+.main-container-init .form_wrapper_popup input[type="text"]:focus,.main-container-init .form_wrapper input[type="email"]:focus,.main-container-init .form_wrapper input[type="tel"]:focus,.main-container-init textarea:focus {
+    -webkit-box-shadow:0 0 2px 1px rgba(255, 169, 0, 0.5);
+    -moz-box-shadow:0 0 2px 1px rgba(255, 169, 0, 0.5);
+    box-shadow:0 0 2px 1px rgba(255, 169, 0, 0.5);
+    border:1px solid #f5ba1a;
+}
+
+#btnExport{
+    margin-left: 10px;
+}
+
+i.fa.fa-file-excel-o {
+    padding-right: 6px;
+}
+
+a.btn-init.btn-info-init i.fa.fa-plus {
+    padding-right: 10px !important;
+}
+
+i.fa.fa-pencil:hover {
+    color: #008000;
+}
+
+i.fa.fa-eye:hover {
+    color: #008000;
+}
+
+i.fa.fa-trash:hover {
+    color: #FF0000;
+}
+
+div.textarea_field ngb-alert {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f00;
+}
+
+tr.tr1.ng-scope td {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+/* Popup box BEGIN */
+.form_wrapper_popup input[type="button"],.form_wrapper_popup input[type="submit"]{
+    color: #fff;
+    border-color: none;;
+    background: #00668d;
+    box-shadow:none;
+    vertical-align: top;
+    height: 35px;
+}
+
+.main-container-init .form_container {
+    padding:15px;
+}
+.main-container-init .form_wrapper h2 {
+    font-size:1.5em;
+    line-height:1.5em;
+    margin:0;
+}
+.main-container-init .form_wrapper .title_container {
+    text-align:center;
+    margin:-15px -15px 15px;
+    padding:15px 0;
+    border-bottom: 1px solid #ccc;
+}
+.main-container-init .form_wrapper h3 {
+    font-size:1.1em;
+    font-weight:normal;
+    line-height:1.5em;
+    margin:0;
+}
+.main-container-init .form_wrapper .row {
+    margin:10px -15px;
+}
+.main-container-init .form_wrapper .row > div {
+    padding:0 15px;
+    box-sizing:border-box;
+}
+.main-container-init .form_wrapper .col_md8 {
+    width:66%;
+    float:left;
+}
+.main-container-init .form_wrapper .col_half {
+    width:50%;
+    float:left;
+}
+.main-container-init .form_wrapper .col_thrid {
+    width:33%;
+    float:left;
+}
+.main-container-init .form_wrapper .col_for {
+    width:25%;
+    float:left;
+}
+.main-container-init .form_wrapper label {
+    display:block;
+    margin:0 0 5px;
+}
+.main-container-init .form_wrapper .input_field,.main-container-init .form_wrapper .textarea_field {
+    position:relative;
+}
+.main-container-init .form_wrapper .input_field > span, .main-container-init .form_wrapper .textarea_field > span {
+    position:absolute;
+    left:0;
+    top:0;
+    color:#333;
+    height:100%;
+    border-right:1px solid #ccc;
+    text-align:center;
+    width:20px;
+}
+.main-container-init .form_wrapper .textarea_field > span {
+    border-bottom:1px solid #ccc;
+    max-height:25px;
+}
+.main-container-init .form_wrapper .input_field > span > i,.main-container-init .form_wrapper .textarea_field > span > i {
+    padding-top:12px;
+}
+.main-container-init .form_wrapper input[type="text"],.main-container-init .form_wrapper select,.main-container-init .form_wrapper input[type="email"],.main-container-init .form_wrapper input[type="tel"],.main-container-init textarea {
+    width:100%;
+    padding:10px 10px 10px 35px;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+    outline:none;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+}
+.main-container-init .form_wrapper select{
+    -webkit-appearance: textfield;
+    padding: 5px 10px 5px 35px;
+}
+.main-container-init .form_wrapper textarea {
+    height:8em;
+}
+.main-container-init .form_wrapper input[type="text"]:focus,.main-container-init .form_wrapper input[type="email"]:focus,.main-container-init .form_wrapper input[type="tel"]:focus,.main-container-init textarea:focus {
+    -webkit-box-shadow:0 0 2px 1px rgba(255, 169, 0, 0.5);
+    -moz-box-shadow:0 0 2px 1px rgba(255, 169, 0, 0.5);
+    box-shadow:0 0 2px 1px rgba(255, 169, 0, 0.5);
+    border:1px solid #f5ba1a;
+}
+.main-container-init .button {
+    width: 100%;
+}
+.main-container-init .ed_button.button {
+    width: 7%;
+}
+
+.wp-core-ui .button-group.button-small .button, .wp-core-ui .button.button-small {
+    height: 24px !important;
+    line-height: 22px !important;
+    padding: 0 8px 1px;
+    font-size: 11px !important;
+}
+
+.main-container-init .form_wrapper input[type="submit"],.main-container-init .form_wrapper input[type="button"],.main-container-init .form_wrapper button[type="button"] {
+    background:#0085ba;
+    height:50px;
+    line-height:50px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    color:#fff;
+    font-size:1.2em;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+}
+.main-container-init .form_wrapper input[type="submit"]:hover, .main-container-init .form_wrapper input[type="submit"]:focus {
+    background:#008000;
+}
+.main-container-init .credit{
+    position:relative;
+    z-index:1;
+    text-align:center;
+    padding:15px;
+    color:#f5ba1a;  
+}
+.main-container-init .credit a{
+    color:#daa106;  
+}
+.form_container select.form-control{
+    padding: 4px 6px 4px 4px!important;
+    height: 40px;
+}
+.col-init-12{
+    width: 100%;
+    display: inline-block;
+}
+.main-init-padding {
+    padding-right: 20px;
+}
+.col-init-9{
+    width: 74%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.col-init-8{
+    width: 64%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.col-init-6{
+    width: 49.50%;
+}
+.col-init-4{
+    width: 33.33%;
+}
+
+.col-init-3{
+    width: 24.50%;
+}
+
+.col-init-2{
+    width: 16.10%;
+}
+.main-container-init .left{
+    float: left;
+}
+.main-container-init .right{
+    float: right;
+}
+
+.main-container-init .form_wrapper .wp-editor-wrap input[type="submit"], .main-container-init .form_wrapper .wp-editor-wrap input[type="button"], .main-container-init .form_wrapper .wp-editor-wrap button[type="button"] {
+    background: none;
+    height: 20px;
+    line-height: 0px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #444;
+}
+
+.main-container-init table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    white-space: nowrap;
+}
+.main-container-init table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+}
+
+.main-container-init table th,
+.main-container-init table td {
+    padding: 1em;
+    text-align: left !important;
+}
+
+.main-container-init table th {
+    font-size: 12px;
+    color: #444;
+}
+.main-container-init .delete-confirm {
+    display: none;
+    position: absolute;
+    border: 1px solid #ddd;
+    padding: 4px;
+    z-index: 100000000000;
+    background: #ddd;
+    border-radius: 4px;
+    width: 150px;
+    margin-top: -5px;
+}
+
+.main-container-init .delete-confirm:after {
+    content: '';
+    display: inline-block;
+    border-right: 10px solid #dddddd;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    position: absolute;
+    top: 4px;
+    left: -4%;
+    text-align: center;
+}
+.main-container-init .delete-confirm p.ng-binding {
+    margin: 5px 0;
+    white-space: normal !important;
+}
+.main-container-init .delete-confirm span i.fa.fa-check {
+    color: #008000;
+}
+.main-container-init .delete-confirm span i.fa.fa-check:hover {
+    color: #04a904;
+}
+.main-container-init .delete-confirm span i.fa.fa-close {
+    color: #ff0000;
+}
+.main-container-init .delete-confirm span i.fa.fa-close:hover {
+    color: #e20707;
+}
+
+.main-container-init .pagination {
+    display: inline-block;
+}
+
+.main-container-init .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.col-init-3.right a.btn-init.btn-info-init {
+    float: right;
+}
+
+.main-container-init .pagination li {
+    float: left;
+    cursor: pointer;
+    padding: 0px 0px 0px 0px;
+}
+
+.main-container-init table i {
+    cursor: pointer;
+    font-size: 18px;
+}
+.main-container-init table i.fa.fa-sort {
+    font-size: 12px;
+}
+
+.main-container-init table th a {
+    color: #444;
+}
+
+.main-container-init .pagination li.active a {
+    background-color: #0085ba;
+    border: 1px solid #0085ba;
+    color: #fff;
+}
+
+.toplevel_page_wp-surveillance img{
+    width: 27px;
+    margin-top: -4px;  
+}
+
+.main-container-init .pagination a:hover:not(.active) {background-color: #ddd; border: 1px solid #ddd;}
+
+.pagination > li:first-child {
+	display:none
+}
+.pagination > li:last-child {
+	display:none
+}
+
+.btn-init {
+    display: inline-block;
+    padding: 7px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn-info-init {
+    color: #fff;
+    background-color: #0085ba;
+    border-color: #46b8da;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.btn-info-init:hover {
+    background-color: #ddd;
+    color: #444;
+    border-color: #ddd;
+}
+.info-green{
+    color:green;
+}
+.info-red{
+    color:red;
+}
+.client_invoice_msg{
+    text-align: center;
+}
+.wp-clients-manager-preloader {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 99999;
+}
+
+.wp-clients-manager-preloader .wp-clients-manager-preloader-custom-gif {
+    display: block;
+    width: 170px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -40px 0px 0px -40px;
+    background: url('../images/loader.svg') no-repeat scroll 0% 0% transparent;
+}
+
+/* Placeholder color */ 
+
+form ::-webkit-input-placeholder { color: #2F9FC9 !important; opacity: 0.6; }  /* WebKit, Blink */
+form :-moz-placeholder { color: #2F9FC9; }  /* Mozilla Firefox 4 to 18 */
+form ::-moz-placeholder { color: #2F9FC9; }  /* Mozilla Firefox 19+ */
+form:-ms-input-placeholder { color: #2F9FC9; }  /* Internet Explorer 10-11 */
+form::-ms-input-placeholder { color: #2F9FC9; }  /* Microsoft Edge */
+
+/* Tr striped */
+
+tr.tr1:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+tr.tr1:nth-child(even) {
+    background-color: #ffffff;
+}
+tr.tr1{height:25px;}
+
+@media (max-width: 1130px){
+    .col-init-6 {
+        width: 73.5%;
+    }
+    .main-container-init .delete-confirm{
+        position: relative;
+        width: 95%;
+    }
+}
+@media (max-width: 1024px){
+    .col-init-2.left{
+        width: 130px;
+    }
+}
+
+@media (max-width: 991px){
+    .inventory.inventory-init{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 780px){
+    .main-init-padding{
+        padding-right: 10px;
+    }
+    .col-init-6.left input.invoice-datetime-picker-list{
+        width: 28% !important;
+    }
+    .col-init-6.left {
+        width: 78.5%;
+    }
+    .col-init-2.left {
+        width: 17.5%;
+    }
+}
+
+@media (max-width: 767px){
+    .col-init-2.left{
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .wp_clients_manager label.form-tabing {
+        font-size: 0;
+    }
+
+    .wp_clients_manager label.form-tabing:before {
+        margin: 0;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .wp_clients_manager label.form-tabing {
+        padding: 15px;
+    }
+}
+/*end tabing section*/
+
+
+
+
+
+@media print {
+    * { -webkit-print-color-adjust: exact; }
+    .invoice-creater-init span:empty { display: none; }
+    .invoice-creater-init .add,.invoice-creater-init .cut { display: none; }
+}
+
+@page { margin: 20px; }
+/*invoice- creater css end*/
+
+
+
+@media screen and (max-width: 600px) {
+
+    .main-container-init .form_wrapper .col_half {
+        width:100%;
+        float:none;
+    }
+    .main-container-init .form_wrapper label {
+        margin:10px 0;
+    }
+
+    /*.main-container-init .left{
+        float: none;
+    }*/
+    .main-container-init .right, .col-init-3.right a.btn-init.btn-info-init{
+        float: left;
+    }
+    .btn-info-init{
+        float: left !important;
+        margin-bottom: 5px;
+        margin-left: 5px !important;
+    }
+
+    .main-container-init .form_wrapper {
+        width: 100%;
+        left:0px;
+    }
+    .col-init-2, .col-init-4, .col-init-3{
+        width: 100%;
+    }
+    .main-container-init .ng-scope {
+        padding: 10px 10px 0px 10px;
+    }
+    .col-init-6.left {
+        width: 68.5%;
+    }
+    .invoice-creater-init table.meta tr td {
+        display: inline-block;
+        width: 95% !important;
+        left: 0 !important;
+    }
+    .invoice-creater-init table.balance {
+        width: 100% !important;
+    }
+    .main-container-init-2 textarea#country {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 480px){
+    .col-init-6.left input.invoice-datetime-picker-list {
+        width: auto !important;
+    }
+    .col-init-6.left select.form-control.ng-pristine {
+        width: auto !important;
+    }
+}
