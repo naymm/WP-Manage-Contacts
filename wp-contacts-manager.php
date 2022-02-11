@@ -1,15 +1,14 @@
 <?php
 /**
  *   Plugin Name: Wordpress plugin to manage contacts
- *   Plugin URI: #
- *   Description: O plug-in do WordPress para gerenciar contatos é um plug-in do WordPress para gerenciar contatos, tudo a partir do painel do WP. O WP Contacts Manager é um CRUD: Crie, leia, atualize e exclua. 
+ *   Plugin URI: https://github.com/nmupoia/WP-Manage-Contacts
+ *   Description: WordPress Plugin for Managing Contacts is a WordPress Plugin for managing contacts, all from the WP dashboard. WP Contacts Manager is a CRUD: Create, Read, Update and Delete. 
  *   Version: 1.0.0
  *   Author: Naym Mupoia
- *   Author URI: https://www.facebook.com/irvanio.braga/
+ *   Author URI: https://github.com/nmupoia
  *   License: GPL-2.0+
- *   License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+ *   License URI: http://www.gnu.org/licenses/gpl-3.0.txt
  *   Text Domain: wp_contacts_manager
- *   Domain Path: /languages/
  */
 /**
  *   @package    Wordpress plugin to manage contacts
