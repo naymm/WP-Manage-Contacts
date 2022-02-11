@@ -1,6 +1,6 @@
 <?php
 /**
-*   @package    WP Contacts Manager WordPress Plugin
-*   @author     Labarta
+*   @package    Wordpress plugin to manage contacts
+*   @author     Naym Mupoia
 */
 ?>
